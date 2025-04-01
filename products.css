@@ -1,0 +1,129 @@
+.product-page {
+    padding: 2rem;
+    font-family: sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  .section-head-box h2 {
+    font-size: 1.8rem;
+    color: #2e7d32;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .product-layout {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .product-filters {
+    flex: 1;
+    max-width: 240px;
+    background: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  }
+  
+  .filter-box {
+    margin-bottom: 2rem;
+  }
+  
+  .filter-box h4 {
+    margin-bottom: 0.5rem;
+    color: #2e7d32;
+  }
+  
+  .filter-box ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .filter-box li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .filter-box label {
+    margin-left: 0.4rem;
+  }
+  
+  .product-grid {
+    flex: 3;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .product-card {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    position: relative;
+  }
+  
+  .product-card img {
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .product-card h4 {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+  }
+  
+  .price {
+    color: #2e7d32;
+    font-weight: bold;
+  }
+  
+  .old-price {
+    text-decoration: line-through;
+    color: #999;
+    font-weight: normal;
+    font-size: 0.9rem;
+    margin-left: 0.5rem;
+  }
+  
+  .discount {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #d32f2f;
+    color: #fff;
+    font-size: 0.8rem;
+    padding: 2px 6px;
+    border-radius: 4px;
+  }
+  
+  .pagination {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  .pagination .page,
+  .pagination .next {
+    display: inline-block;
+    padding: 0.5rem 0.75rem;
+    margin: 0 0.25rem;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #2e7d32;
+  }
+  
+  .pagination .active {
+    background: #2e7d32;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .pagination .dots {
+    display: inline-block;
+    padding: 0.5rem;
+    color: #888;
+  }
