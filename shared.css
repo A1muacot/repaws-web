@@ -161,13 +161,26 @@ nav a:hover {
 }
 
 .social-links {
+    display: flex;
     list-style: none;
     padding: 0;
     margin: 0.5rem 0 0 0;
+    gap: 1rem;
 }
 
 .social-links li {
     margin-bottom: 0.25rem;
+}
+
+.footer-right i {
+    font-size: 2rem;
+}
+
+.footer-right p {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    margin-bottom: 0.5em;
 }
 
 .footer-bottom {
