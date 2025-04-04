@@ -1,7 +1,7 @@
 .section-head-box {
   margin-bottom: 2em;
   height: 10em;
-  background-image: url('img/jn2.svg');
+  background-image: url("img/jn2.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -51,7 +51,7 @@
 }
 
 .product-filters input[type="checkbox"]::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0.1em;
   left: 0.15em;

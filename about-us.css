@@ -1,93 +1,93 @@
 /* About us */
 .about-us {
-    /* width: 100%; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 3em;
-    padding: 3em;
+  /* width: 100%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3em;
+  padding: 3em;
 }
 
 .about-us img {
-    width: 40%;
+  width: 40%;
 }
 
 .about-us div {
-    width: 60%;
-    font-size: 1.5em;
-    line-height: 1.6;
+  width: 60%;
+  font-size: 1.5em;
+  line-height: 1.6;
 }
 
 .section-head-box {
-    background: linear-gradient(to right, var(--dark-green), var(--brown-red));
-    color: var(--off-white);
-    padding: 1em 0;
-    margin-bottom: 1em;
-    width: 100%;
-    text-align: center;
-    font-size: 2.5em;
+  background: linear-gradient(to right, var(--dark-green), var(--brown-red));
+  color: var(--off-white);
+  padding: 1em 0;
+  margin-bottom: 1em;
+  width: 100%;
+  text-align: center;
+  font-size: 2.5em;
 }
 
 /* Journey */
 .journey {
-    width: 100%;
-    text-align: center;
-    padding: 3em 0;
+  width: 100%;
+  text-align: center;
+  padding: 3em 0;
 }
 
 .journey-container {
-    display: flex;
-    justify-content: space-around;
-    gap: 2em;
-    padding: 1em 0;
+  display: flex;
+  justify-content: space-around;
+  gap: 2em;
+  padding: 1em 0;
 }
 
 .journey-container .step {
-    width: 20%;
-    position: relative;
-    margin-top: 2em;
+  width: 20%;
+  position: relative;
+  margin-top: 2em;
 }
 
 .journey-container .step img {
-    height: 10em;
-    width: auto;
-    position: relative;
+  height: 10em;
+  width: auto;
+  position: relative;
 }
 
 .journey-container .step-number {
-    position: absolute;
-    z-index: 8;
-    top: -5%;
-    left: 5%;
-    background: var(--dark-green);
-    color: var(--off-white);
-    font-weight: bold;
-    font-size: 1.5em;
-    width: 2em;
-    height: 2em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
+  position: absolute;
+  z-index: 8;
+  top: -5%;
+  left: 5%;
+  background: var(--dark-green);
+  color: var(--off-white);
+  font-weight: bold;
+  font-size: 1.5em;
+  width: 2em;
+  height: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
 }
 
 /* Problem */
 .problem {
- width: 100%;
+  width: 100%;
 }
 
 .problem .problem-container {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 2em;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2em;
 }
 
 .problem .problem-container img:first-child {
-    width: 50%;
+  width: 50%;
 }
 
 .problem .problem-container img:nth-child(2) {
-    width: 39%;
+  width: 39%;
 }
 
 /* .problem .problem-container .left-container {
@@ -109,56 +109,56 @@
 
 /* Solution */
 .solution {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .solution img {
-    width: 70%;
+  width: 70%;
 }
 
 .solution-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 3em;
-    padding: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3em;
+  padding: 3em;
 }
 
 .solution-container img {
-    width: 40%;
+  width: 40%;
 }
 
 .solution-text {
-    text-align: right;
-    width: 60%;
-    font-size: 1.5em;
-    line-height: 1.6;
+  text-align: right;
+  width: 60%;
+  font-size: 1.5em;
+  line-height: 1.6;
 }
 
 .solution-tag {
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-    margin-bottom: 2em;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-bottom: 2em;
 }
 
 .solution-tag img {
-    width: 30%;
+  width: 30%;
 }
 
 /* Process */
 .process {
-    width: 100%;
+  width: 100%;
 }
 
 .process-container {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .process-container img {
-    width: 80%;
+  width: 80%;
 }

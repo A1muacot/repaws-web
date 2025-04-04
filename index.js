@@ -1,1 +1,1 @@
-setTimeout(() => document.querySelector(".welcome").remove(), 5000)
+setTimeout(() => document.querySelector(".welcome").remove(), 5000);
